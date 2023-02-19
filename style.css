@@ -1,0 +1,123 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(53, 54, 58);
+  color: white;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+body{
+  padding: 0;
+  margin: 0px;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.head{
+  text-decoration: none;
+  border: 1px;
+  border-style: solid;
+  background-color: rgb(15, 15, 15);
+  border-color: rgb(41, 42, 45);
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+}
+.head-gc{
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px; 
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.head-admin{
+  display: flex;
+  width: auto;
+  padding-right: 20px;
+  padding-left: 0;
+  margin-top:20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+header, ul, li{
+  display: inline;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  width: 100vw;
+}
+.join{
+/*   width: 75vw; */
+  display: flex;
+  flex-wrap:wrap;
+}
+.gc-pfp{
+  border-radius:50%;
+}
+.gc-name{
+  padding-left: 15px;
+  font-size: 20px;
+}
+.container{
+display: flex;
+  width: 100vw;
+  height: 100vh;
+/*   align-items: center; */
+/*   flex-wrap: wrap; */
+  justify-content: center;
+  flex-direction:column;
+}
+.join-insta{
+  background-color:rgb(183, 51, 170);
+  width: 200px;
+  height:60px;
+  border-radius: 150px;
+  justify-content: center;
+    align-items: center;
+  display: flex;
+  margin-left: 200px;
+  margin-bottom:20px;
+  margin-top: 10px;
+}
+.lmao{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.join-discord{
+  background-color:rgb(112, 126, 204);
+  width: 200px;
+  height:60px;
+  border-radius: 150px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-left: 200px;
+}
+.link{
+  text-decoration: none;
+  color:white;
+}
+.text{
+  font-size: 18pt;
+  margin-top: 100px;
+}
+.box{
+/*   display: flex; */
+  margin-top: -150px;
+}
+footer{
+  width:100vw;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(41, 42, 45);
+
+}
